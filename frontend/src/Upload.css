@@ -1,0 +1,139 @@
+/* General Page Layout */
+.upload-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f7fb;
+    flex-direction: column;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e40af;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .brand-name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .navbar .sidebar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar .sidebar-links a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar .sidebar-links a:hover {
+    color: #60a5fa;
+  }
+  
+  /* Main Content Area */
+  .upload-excel-container {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .upload-excel-container h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .upload-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #f9fafb;
+    cursor: pointer;
+  }
+  
+  .upload-area label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  .upload-area p {
+    color: #6b7280;
+  }
+  
+  .upload-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .upload-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .upload-status {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .file-guidelines {
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .file-guidelines h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .file-guidelines ul {
+    font-size: 1.1rem;
+    color: #4b5563;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .file-guidelines ul li {
+    margin-bottom: 10px;
+  }
+  
+  .code {
+    font-size: 0.9rem;
+    color: #1e40af;
+  }
+  
