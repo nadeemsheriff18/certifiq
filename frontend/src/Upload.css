@@ -174,3 +174,36 @@
     color: #1e40af;
   }
   
+  .certificate-template {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .certificate {
+    width: 600px;
+    padding: 30px;
+    border: 2px solid #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
