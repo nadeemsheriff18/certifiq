@@ -41,13 +41,11 @@ function UploadForm() {
       {/* Navbar */}
       <header className="navbar">
         <div className="brand-name">CertifiQ</div>
-        <div className="sidebar-links">
+        <div className="navbar-links">
           <a href="dashboard.html">Dashboard</a>
-          <a href="upload.html">Upload Excel</a>
-          <a href="themes.html">Themes</a>
-          <a href="customize.html">Customize Certificate</a>
-          <a href="email.html">Email Distribution</a>
+          <a href="profile.html">Profile</a>
         </div>
+        <div className='logo'></div>
       </header>
 
       {/* Main Content */}
