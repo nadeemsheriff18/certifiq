@@ -1,0 +1,114 @@
+.home-wrapper {
+  background: linear-gradient(to bottom right, #c64ae8, #a724f4);
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.home-wrapper header {
+  background-color: #fbf8f5;
+  color: #150b17;
+  padding: 8px;
+}
+
+.home-wrapper .logo {
+  font-weight: 300;
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: "Georgia", serif;
+}
+
+.home-wrapper .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+
+.home-wrapper .hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.home-wrapper .hero .text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  color: #fff;
+  font-family: "Garamond", serif;
+}
+
+.home-wrapper .hero .text p {
+  font-size: 1.4rem;
+  margin-left: 50px;
+  font-family: "Garamond", serif;
+}
+
+.home-wrapper .hero .image img {
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 50px;
+}
+
+.home-wrapper .get-started {
+  background-color: #301934;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  margin-left: 50px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-wrapper .get-started:hover {
+  background-color: #3019346b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-wrapper .how-it-works {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.home-wrapper .how-it-works h2 {
+  font-family: "Garamond", serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-wrapper .how-it-works .steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+
+.home-wrapper .step {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.home-wrapper .step h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.home-wrapper footer {
+  padding: 0.75rem;
+  background-color: #1c003a;
+  color: #ccc;
+  text-align: center;
+}
